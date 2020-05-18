@@ -1,0 +1,40 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/yusufsherif/Desktop/Semester 6/OS/Final_Q2/data.h
+semaphore.h
+-
+
+/Users/yusufsherif/Desktop/Semester 6/OS/Final_Q2/dispatch.h
+
+/Users/yusufsherif/Desktop/Semester 6/OS/Final_Q2/main.cpp
+stdio.h
+-
+time.h
+-
+unistd.h
+-
+pthread.h
+-
+reader.h
+/Users/yusufsherif/Desktop/Semester 6/OS/Final_Q2/reader.h
+writer.h
+/Users/yusufsherif/Desktop/Semester 6/OS/Final_Q2/writer.h
+dispatch.h
+/Users/yusufsherif/Desktop/Semester 6/OS/Final_Q2/dispatch.h
+
+/Users/yusufsherif/Desktop/Semester 6/OS/Final_Q2/reader.h
+data.h
+/Users/yusufsherif/Desktop/Semester 6/OS/Final_Q2/data.h
+
+/Users/yusufsherif/Desktop/Semester 6/OS/Final_Q2/writer.h
+stdlib.h
+-
+data.h
+/Users/yusufsherif/Desktop/Semester 6/OS/Final_Q2/data.h
+

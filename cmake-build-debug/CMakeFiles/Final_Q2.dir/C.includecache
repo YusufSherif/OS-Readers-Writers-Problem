@@ -1,0 +1,30 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/yusufsherif/Desktop/Semester 6/OS/Final_Q2/data.h
+semaphore.h
+-
+
+/Users/yusufsherif/Desktop/Semester 6/OS/Final_Q2/reader.c
+reader.h
+/Users/yusufsherif/Desktop/Semester 6/OS/Final_Q2/reader.h
+
+/Users/yusufsherif/Desktop/Semester 6/OS/Final_Q2/reader.h
+data.h
+/Users/yusufsherif/Desktop/Semester 6/OS/Final_Q2/data.h
+
+/Users/yusufsherif/Desktop/Semester 6/OS/Final_Q2/writer.c
+writer.h
+/Users/yusufsherif/Desktop/Semester 6/OS/Final_Q2/writer.h
+
+/Users/yusufsherif/Desktop/Semester 6/OS/Final_Q2/writer.h
+stdlib.h
+-
+data.h
+/Users/yusufsherif/Desktop/Semester 6/OS/Final_Q2/data.h
+
